@@ -15,7 +15,7 @@ class Dog
   end
 
   def initialize(name)
-    @@all <<< self
+    @@all << self
 
   end
 
