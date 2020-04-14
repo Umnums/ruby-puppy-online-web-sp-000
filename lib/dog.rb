@@ -6,11 +6,11 @@ class Dog
     @@all
   end
 
-  def clear_all
+  def self.clear_all
     @@all = []
   end
 
-  def print_all
+  def self.print_all
     print @@all
   end
 
